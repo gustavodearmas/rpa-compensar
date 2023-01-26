@@ -6,6 +6,9 @@ login = obj.login()
 data_1 = obj.Av68_CicloII_FinSemana_CalendarioA()[0]
 data_2 = obj.Av68_CicloII_FinSemana_CalendarioA()[1]
 
+print("DATA1: ", data_1)
+print("DATA2: ", data_2)
+
 # Cargando archiivo de excel
 workbook=openpyxl.load_workbook("app/programacion.xlsx")
 shenames=workbook.get_sheet_names()
